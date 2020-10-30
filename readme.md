@@ -338,7 +338,7 @@
       let carousel = new Carousel($carousel, Animation.slide)    /*让所有组件可互不干扰运行*/
       
       document.querySelector('#animation-select').onchange =function() {
-        carousel.setAnimation(Animation[this.value])   /*this.value 是 指slide,fade,zoom. 而这些又是Carousel 的属性 */
+        carousel.setAnimation(Animation[this.value])   /*this.value 是 指slide,fade,zoom. 而这些又是Carousel 的属性 */ 
       }
       /*类数组不能直接绑定事件，需要遍历对象*/
 
